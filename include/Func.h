@@ -1,0 +1,17 @@
+#ifndef FUNC_H
+#define FUNC_H
+
+enum FUNC
+{
+	NF90_CREATE,
+	NF90_DEF_DIM,
+	NF90_DEF_VAR,
+	NF90_ENDDEF,
+	NF90_PUT_VAR,
+	NF90_CLOSE,
+	FUNC_SIZE	
+};
+
+#endif
+
+
